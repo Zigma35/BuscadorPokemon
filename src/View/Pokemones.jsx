@@ -63,6 +63,7 @@ const Pokemones = () => {
           Ver detalles
         </button>
       </div>
+      <br />
       <div className="pagination d-flex justify-content-center align-items-center">
         <button onClick={handlePrevPage} disabled={offset === 0}>Anterior</button>
         <span>{`${rangeStart}-${rangeEnd}`}</span>
